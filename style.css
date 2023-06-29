@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outer {
+  width: 85vw;
+  height: 75vh;
+  margin: auto;
+
+  box-shadow: 0px 0px 10px 2px hsl(212, 45%, 89%);
+}
+
+.whitediv {
+  width: 280px;
+  height: 420px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 90px auto;
+  padding-top: 15px;
+  box-shadow: 10px 10px 20px 12px hsl(212, 45%, 89%);
+  position: relative;
+  top: 50px;
+}
+
+.imagetop img {
+  border-radius: 10px;
+}
+
+.attribution {
+  margin-top: 65px;
+}
+
+h1 {
+  margin: 15px auto;
+  width: 250px;
+  font-weight: 700 !important;
+  text-shadow: 0 0 1px hsl(218, 44%, 22%);
+}
+
+p {
+  margin: 15px auto;
+  width: 250px;
+  text-align: center;
+  font-weight: 400;
+}
+
+h1,
+p {
+  font-family: outfit;
+  color:hsl(218, 44%, 22%);
+}
